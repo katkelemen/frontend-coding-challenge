@@ -1,0 +1,61 @@
+body {
+  background-image: url("./geometric.jpg");;
+  background-repeat: repeat;
+  color: #564B9B;
+  text-align: center;
+  font-family: 'Proxima Nova', Georgia, sans-serif;
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+form {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+button[type='submit'] {
+  margin-top: 30px;
+  background:#564B9B;
+  height: 60px;
+  width: 120px;
+  font-size: 20px;
+}
+
+.btn-primary {
+    color: #dedcdc;
+    border-color: grey;
+    background-color: #564B9B;
+    transition: 0s;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+    color: #dedcdc;
+    background-color: #564B9B;
+    border-color: lightgrey;
+    -webkit-transform: scale(1.1);
+    -moz-transform:    scale(1.1);
+    -o-transform:      scale(1.1);
+    -ms-transform:     scale(1.1);
+}
+
+.form-block {
+  padding: 30px 30px;
+  background-color: rgba(0,0,0,0.91);
+  border-radius: 1%;
+  transition: 0.5s;
+}
+
+.form-block:hover {
+ -webkit-transform: scale(1.01);
+ -moz-transform:    scale(1.01);
+ -o-transform:      scale(1.01);
+ -ms-transform:     scale(1.01);
+}
+
+label {
+  color: grey;
+  font-size: 18px;
+}
